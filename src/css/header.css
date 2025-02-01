@@ -2,8 +2,8 @@
   padding: 20px 0;
 }
 .nav {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  justify-content: center;
 }
 .nav-logo {
   display: inline-flex;
@@ -12,11 +12,12 @@
 }
 .nav-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
 }
 .nav-link {
+  font-size: 30px;
   position: relative;
   display: block;
   font-weight: 500;
